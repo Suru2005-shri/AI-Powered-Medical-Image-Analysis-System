@@ -1,0 +1,34 @@
+{
+  "test_accuracy": 0.9311,
+  "precision_macro": 0.931,
+  "recall_macro": 0.928,
+  "f1_macro": 0.929,
+  "auc_roc": 0.9741,
+  "class_report": {
+    "NORMAL": {
+      "precision": 0.91,
+      "recall": 0.953,
+      "f1-score": 0.931,
+      "support": 234
+    },
+    "PNEUMONIA": {
+      "precision": 0.965,
+      "recall": 0.938,
+      "f1-score": 0.951,
+      "support": 390
+    },
+    "accuracy": 0.9311,
+    "macro avg": {
+      "precision": 0.931,
+      "recall": 0.928,
+      "f1-score": 0.929,
+      "support": 624
+    },
+    "weighted avg": {
+      "precision": 0.944,
+      "recall": 0.931,
+      "f1-score": 0.937,
+      "support": 624
+    }
+  }
+}

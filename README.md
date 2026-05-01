@@ -1,4 +1,4 @@
-# 🏥 AI-Powered Medical Image Analysis System
+#  AI-Powered Medical Image Analysis System
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
@@ -15,15 +15,15 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project builds a **production-inspired AI pipeline** for automated chest X-ray analysis. The system classifies X-ray images as **NORMAL** or **PNEUMONIA** using deep learning, and generates **Grad-CAM heatmaps** to highlight the regions of the lung that influenced the prediction — simulating how AI-assisted radiology tools work in real hospitals.
 
-> 🏆 **Accuracy achieved: ~92%+ on test set** | AUC: ~0.97
+>  **Accuracy achieved: ~92%+ on test set** | AUC: ~0.97
 
 ---
 
-## 🩺 Problem Statement
+##  Problem Statement
 
 Pneumonia kills over 2.5 million people every year. Early detection through chest X-rays is the primary diagnostic tool, but:
 
@@ -35,7 +35,7 @@ Pneumonia kills over 2.5 million people every year. Early detection through ches
 
 ---
 
-## 🏭 Industry Relevance
+## Industry Relevance
 
 | Use Case | Industry | How This System Helps |
 |----------|----------|-----------------------|
@@ -49,7 +49,7 @@ Companies building similar systems: **Google Health, Zebra Medical Vision, Aidoc
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 ```
 Input X-Ray (JPEG/PNG)
@@ -92,7 +92,7 @@ Input X-Ray (JPEG/PNG)
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 AI-Medical-Image-Analysis/
@@ -136,7 +136,7 @@ AI-Medical-Image-Analysis/
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Component | Tool |
 |-----------|------|
@@ -152,7 +152,7 @@ AI-Medical-Image-Analysis/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 **Source:** [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) – Kaggle
 
@@ -166,7 +166,7 @@ AI-Medical-Image-Analysis/
 
 ---
 
-## 🛠 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -204,7 +204,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Download Dataset
 ```bash
@@ -246,7 +246,7 @@ jupyter notebook notebooks/01_complete_walkthrough.ipynb
 
 ---
 
-## 📈 Results
+##  Results
 
 | Metric | Value |
 |--------|-------|
@@ -260,7 +260,7 @@ jupyter notebook notebooks/01_complete_walkthrough.ipynb
 
 ---
 
-## 🖼 Outputs
+##  Outputs
 
 ### Preprocessing Pipeline
 Shows the 4-stage transformation: original → CLAHE enhanced → resized → normalized.
@@ -279,21 +279,21 @@ Highlights which lung regions the model focuses on — the infected opacities in
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 By studying and running this project, you will understand:
 
-- ✅ How Transfer Learning works and when to use it
-- ✅ How to build production-style ML pipelines (not just notebooks)
-- ✅ How to handle class imbalance with class weights
-- ✅ How to evaluate models beyond just accuracy (AUC, F1, confusion matrix)
-- ✅ How Grad-CAM makes neural networks interpretable
-- ✅ How image augmentation prevents overfitting
-- ✅ How AI is applied in real-world medical imaging systems
+-  How Transfer Learning works and when to use it
+-  How to build production-style ML pipelines (not just notebooks)
+-  How to handle class imbalance with class weights
+-  How to evaluate models beyond just accuracy (AUC, F1, confusion matrix)
+-  How Grad-CAM makes neural networks interpretable
+-  How image augmentation prevents overfitting
+-  How AI is applied in real-world medical imaging systems
 
 ---
 
-## 📁 Key Files Quick Reference
+##  Key Files Quick Reference
 
 | File | Purpose |
 |------|---------|
@@ -309,7 +309,7 @@ By studying and running this project, you will understand:
 
 ---
 
-## 🤝 Acknowledgements
+##  Acknowledgements
 
 - **Dataset:** Kermany, Daniel S. et al. (2018). "Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification." Mendeley Data.
 - **Base Model:** Howard, A. et al. (2017). "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications."
@@ -317,13 +317,26 @@ By studying and running this project, you will understand:
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License** — free to use, modify, and distribute for educational and research purposes.
 
 ---
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Suru2005-shri/Employee-Performance-Predictor-using-Data-Analytics/main/images/01_performance_distribution.png" width="48%" alt="Performance Distribution" />
+  <img src="https://raw.githubusercontent.com/Suru2005-shri/Employee-Performance-Predictor-using-Data-Analytics/main/images/02_dept_performance.png" width="48%" alt="Department Performance" />
+</p>
 
 <p align="center">
-  Built with ❤️ as a student project demonstrating industry-level AI engineering practices.<br/>
-  ⭐ Star this repo if you found it helpful!
+  <img src="https://raw.githubusercontent.com/Suru2005-shri/Employee-Performance-Predictor-using-Data-Analytics/main/images/03_training_vs_performance.png" width="48%" alt="Training vs Performance" />
+  <img src="https://raw.githubusercontent.com/Suru2005-shri/Employee-Performance-Predictor-using-Data-Analytics/main/images/05_salary_boxplot.png" width="48%" alt="Salary by Performance" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Suru2005-shri/Employee-Performance-Predictor-using-Data-Analytics/main/images/04_correlation_heatmap.png" width="70%" alt="Correlation Heatmap" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Suru2005-shri/Employee-Performance-Predictor-using-Data-Analytics/main/images/06_satisfaction_violin.png" width="48%" alt="Satisfaction Score" />
+  <img src="https://raw.githubusercontent.com/Suru2005-shri/Employee-Performance-Predictor-using-Data-Analytics/main/images/07_feature_importance.png" width="48%" alt="Feature Importance" />
 </p>
